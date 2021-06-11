@@ -1,0 +1,275 @@
+/*  colour scheme 
+
+White               :   #
+light-grey          :   #
+
+dark-grey           :   #242427
+                        #222
+                        darkslategray
+                        hsl(240,4,14)
+                        rgb(36,36,39)
+
+near-black          :   #020404
+                        #000black
+                        hsl(180,33,1)
+                        rgb(2,4,4)
+
+dark-blue           :   #09121c
+                        #112
+                        black
+                        hsl(211,51,7)
+                        rgb(9,18,28)
+
+
+mid-blue            :   #132231
+                        #123
+                        darkslategray
+                        hsl(210,44,13)
+                        rgb(19,34,49)
+lighter-mid-blue    :   #1e3342
+                        #234
+                        darkslategray
+                        hsl(205,37,18)
+                        rgb(30,51,66)
+
+
+turquoise           :   #49f5f7
+                        #5ff
+                        turquoise
+                        hsl(180,91,62)
+                        rgb(73,245,247)
+
+*/
+body {
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:100%;
+    background-color: #020404 !important;
+    color:white;
+}
+label {
+    color:white;
+}
+h1 {
+    color:#49f5f7;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.4rem;
+}
+.jumbotitle {
+    font-size: 4rem;
+    padding-bottom:50px;
+}
+
+.jumbh4 {
+    color:#020404;
+}
+
+.jumbp {
+    color:white;
+}
+
+.bg-darkgrey {
+    background-color: #242427 !important; 
+}
+.navbar-brand {
+    color: #49f5f7 !important;
+}
+.uMessage {
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.jumbobg {
+    background: url('http://localhost/AssignmentPHP/images/mainbg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:92vh;
+}
+
+.jumbotro {
+    padding-top:100px;
+}
+
+
+
+.ships {
+    width:500px;
+}
+
+
+
+.shipContainer {
+    width:100%;
+    display: flex;
+
+}
+.shipList {
+    padding:50px;
+    background-color:#09121c;
+}
+.shipTitle h2 {
+    color:#49f5f7;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    margin-top:0;
+}
+
+.shipImage {
+    border: 5px solid #1e3342;
+    border-radius: 15px 0px 15px 0px;
+}
+.respnsiveImg {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 0px 15px 0px;
+}
+.shipDescription {
+    color: white;    
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.shipDescContainer {
+    margin-top:1%;
+    padding-top:2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom:2%;
+    background-color:#132231;
+}
+.shipDescContainer h3{
+    text-align: right;
+    color:#49f5f7;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.6rem;
+    margin-top:0;
+    margin-bottom:0;
+    padding-bottom: 2%;
+    padding-right: 5%;
+
+}
+.twoColContainer {
+    display:flex;
+    width:100%;
+    margin-bottom:20px;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+.shipRole {
+    background-color:#1e3342;
+    color:#49f5f7;
+    font-family: 'Orbitron', sans-serif;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:inline-block;
+    border-radius: 15px 0px 15px 0px;
+}
+.shipRole h4 {
+    margin: 0;
+    padding: 0;
+    padding-bottom:5px;
+}
+.shipRole p {
+    font-size: 0.8rem;
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+.shipClass {
+    background-color:#1e3342;
+    color:#49f5f7;
+    font-family: 'Orbitron', sans-serif;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:inline-block;
+    border-radius: 15px 0px 15px 0px;
+}
+.shipClass h4 {
+    margin: 0;
+    padding: 0;
+    padding-bottom:5px;
+}
+.shipClass p {
+    font-size: 0.8rem;
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+.crewContainer {
+    background-color:#1e3342;
+    color:#49f5f7;
+    font-family: 'Orbitron', sans-serif;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:inline-block;
+    border-radius: 15px 0px 15px 0px;
+}
+.crewContainer h4 {
+    margin: 0;
+    padding: 0;
+    padding-bottom:5px;
+}
+.crewContainer p {
+    font-size: 0.8rem;
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+.cargoContainer {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    background-color:#1e3342;
+    color:#49f5f7;
+    font-family: 'Orbitron', sans-serif;
+    width:40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:inline-block;
+    border-radius: 15px 0px 15px 0px;
+}
+.cargoContainer h4 {
+    margin: 0;
+    padding: 0;
+}
+.cargoContainer p {
+    color:white;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.editshipbtn {
+    background-color: #49f5f7;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+    border:none;
+    color:#09121c;
+    font-weight: bold;
+    border-radius: 15px 0px 15px 0px;
+}
+
+
+.center {
+    text-align: center;
+}
